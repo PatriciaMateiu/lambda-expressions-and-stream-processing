@@ -1,1 +1,6 @@
 # lambda-expressions-and-stream-processing
+
+This project is about analysing the behaviour of a person recorded by a set of sensors. The historical log of the person’s activity is stored as tuples (start_time, end_time, activity_label), where start_time and end_time represent the date and time when each activity has started and ended while the activity label represents the type of activity performed by the person. The data is spread over several days as many entries in the log Activities.txt.
+The lambda expressions are used for writing in files and filtering the results. To create a new file, write in it or read data from existing file, streams are used.
+Java byte streams are used to perform input and output of 8-bit bytes. Though there are many classes related to byte streams but the most frequently used classes are FileInputStream and FileOutputStream. Given a sequence of data (a stream), a series of operations (kernel functions) is applied to each element in the stream. Uniform streaming, where one kernel function is applied to all elements in the stream, is typical. Since the kernel and stream abstractions expose data dependencies, compiler tools can fully automate and optimize on-chip management tasks. 
+
